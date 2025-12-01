@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Student Registration Form</h1>
+    <form>
+        <div class="mainsec">
+            <label class="subsec">FirstName</label>
+            <span>
+                <input type="text" name="username" maxlength="30" placeholder="Enter your firstname">
+                <span>(max 30 character a-z & A-Z)</span>
+            </span>
+        </div>
+        <div class="mainsec" >
+            <label class="subsec">LastName</label>
+            <span>
+                <input type="text" name="username" maxlength="30" placeholder="Enter your lastname">
+                <span>(max 30 character a-z & A-Z)</span>
+            </span>
+        </div>
+        <div class="mainsec">
+            <label class="subsec">Date of Birth</label>
+            <span>
+                <input type="date" name="dob" maxlength="30" placeholder="Enter your firstname">
+            </span>
+        </div>
+        <div class="mainsec">
+            <label class="subsec">Mobile number</label>
+            <span>
+                <input type="tel" name="number" maxlength="30" placeholder="Enter your number">
+                <span>(max 10 digit number)</span>
+            </span>
+        </div>
+        <div class="mainsec">
+            <label class="subsec">Gender</label>
+            <span>
+                <label>Male <input type="radio" name="gender" id=""></label>
+
+                <label>Female <input type="radio" name="gender" id=""></label>
+            </span>
+        </div>
+        <div class="mainsec">
+            <label class="subsec">Address</label>
+            <span>
+                <textarea name="message" id=""></textarea>
+            </span>
+        </div>
+        <div class="mainsec">
+            <label class="subsec">City</label>
+            <span>
+                <input type="text" name="city" id="" placeholder="Enter your city name">
+                 <span>(max 30 character a-z & A-Z)</span>
+            </span>
+        </div>
+        <div class="mainsec">
+            <label class="subsec">Pin Code</label>
+            <span>
+                <input type="text" name="city" id="" placeholder="Enter your pin code ">
+                   <span>(max 6 digit number)</span>
+            </span>
+        </div>
+        <div class="mainsec">
+            <label class="subsec">State</label>
+            <span>
+                <input type="text" name="city" id="" placeholder="Enter your state name">
+                 <span>(max 30 character a-z & A-Z)</span>
+            </span>
+        </div>
+        <div class="mainsec">
+            <label class="subsec">Country</label>
+            <span>
+                <input type="text" name="city" id="" placeholder="Enter your country name">
+            </span>
+        </div>
+            <div class="mainsec">
+            <label class="subsec">Hobbies</label>
+            <span style="width: 50%;">
+                <label>Drawing <input type="checkbox"></label>
+                  <label>Singing <input type="checkbox"></label>
+                    <label>Dancing <input type="checkbox"></label>
+                      <label>Sketching <input type="checkbox"></label>
+                        <label>Other <input type="checkbox"></label>
+                          <label><input type="text"></label>
+            </span>
+        </div>
+        <div class="mainsec">
+            <label class="subsec">Course</label>
+        </div>
+        <div class="mainsec">
+            <label class="subsec">Applied for</label>
+            <span>
+                <label>BCA <input type="radio" name="gender" id=""></label>
+
+                <label>B.Com <input type="radio" name="gender" id=""></label>
+                 <label>B.Sc <input type="radio" name="gender" id=""></label>
+                  <label>B.A  <input type="radio" name="gender" id=""></label>
+            </span>
+        </div>
+        <div class="mainsec">
+            <label class="subsec">Qualification</label>
+            <span>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>SI.No.</th>
+                            <th>Examination</th>
+                            <th>Board</th>
+                            <th>Percentage</th>
+                            <th>Year of Passing</th>
+                        </tr>
+                    </thead>
+                    <tbody align="center">
+                        <tr>
+                            <td>1</td>
+                            <td>Class X</td>
+                            <td><input maxlength="10" type="text"></td>
+                            <td><input maxlength="2" type="number"></td>
+                            <td><input type="text"></td>
+                            
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Class XII</td>
+                            <td><input maxlength="10" type="text"></td>
+                            <td><input maxlength="2" type="number"></td>
+                            <td><input type="text"></td>
+                            
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Graduation</td>
+                            <td><input maxlength="10" type="text"></td>
+                            <td><input maxlength="2" type="number"></td>
+                            <td><input type="text"></td>
+                            
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Masters</td>
+                            <td><input maxlength="10" type="text"></td>
+                            <td><input maxlength="2" type="number"></td>
+                            <td><input type="text"></td>
+                            
+                        </tr>
+                        <tr align="center">
+                            <td></td>
+                            <td></td>
+                            <td>(10 char max)</td>
+                            <td>(upto 2 decimal)</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </span>
+        </div>
+
+        <div style="display: flex; justify-content: center; align-items: center; column-gap: 10px; ">
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </div>
+    </form>
+</body>
+
+</html>

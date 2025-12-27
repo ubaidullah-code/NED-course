@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body > button{
+            position: absolute;
+            top: 20px;
+            right: 20px;
+        }
+    </style>
+</head>
+<body>
+    <center><h1>DOM TASK</h1></center>
+    
+    <button id="mode" onclick="handleDark()">Dark Mode</button>
+    <div>
+        <h2>Change Text Content</h2>
+        <p id="taskOne"></p>
+        <button type="submit" onclick="handleTask1()">Clicked</button>
+    </div>
+    <div id="taskTwo">
+        <h2>Change Style Using DOM</h2>
+
+        <button onclick="handleTask2()">Clicked</button>
+        
+    </div>
+        <div id="taskthree" style="padding: 5px 0;">
+        <h2>Get Element by ID</h2>
+
+        <button onclick="handleTask3()">Change my Color</button>
+    </div>
+    <div id="taskFour">
+        <h2>Hide and Show Element</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, in!</p>
+        <button onclick="handleTask4()">Hide the paragraph</button>
+
+    </div>
+
+    <div id="taskSix">
+        <h2>Input Value Display</h2>
+        <form onsubmit="return false">
+            <input type="text" id="inputOne">
+            <p></p>
+            <button onclick="handleTask6()">Submit</button>
+
+        </form>
+    </div>
+    <div id="taskSeven">
+        <h2>Add List Items Dynamically</h2>
+        <form onsubmit="return false">
+            <input type="text" id="inputTwo">
+            <ul></ul>
+            <button onclick="handleTask7()">Submit</button>
+
+        </form>
+        </div>
+        <div id="taskFive">
+            <img src="https://images.unsplash.com/photo-1513258496099-48168024aec0
+" width="200px" alt="">
+<br>
+            <button onclick="handleFive()">change</button>
+        </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+task no 1
+
+// students
+
+CREATE TABLE students (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    age INT NOT NULL,
+    email VARCHAR(150) NOT NULL
+);
+
+// teachers
+
+CREATE TABLE teachers (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    age INT NOT NULL,
+    email VARCHAR(150) NOT NULL
+);
+
+task no 2
+
+INSERT INTO students (name , age  , email) VALUES
+('Rahul Sharma', 20, 'rahul@gmail.com'),
+('Priya Verma', 22, 'priya@gmail.com'),
+('Amit Kumar', 21, 'amit@gmail.com'),
+('Neha Singh', 23, 'neha@gmail.com'),
+('Rohan Patel', 19, 'rohan@gmail.com');
+
+INSERT INTO teachers (name, age, email) VALUES
+('Anita Mehra', 35, 'anita@school.com'),
+('Suresh Rao', 42, 'suresh@school.com'),
+('Pooja Nair', 38, 'pooja@school.com');
+
